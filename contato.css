@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fefefe;
+    color: #333;
+  }
+  
+  header {
+    background-color: #d6336c;
+    padding: 20px 0;
+  }
+  
+  nav {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  .logo {
+    font-size: 1.8rem;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-list li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  main {
+    padding: 60px 20px;
+  }
+  
+  .painel-contato {
+    max-width: 600px;
+    margin: auto;
+    background-color: #fff0f5;
+    border-radius: 12px;
+    padding: 40px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    text-align: center;
+  }
+  
+  .painel-contato h1 {
+    font-size: 2rem;
+    color: #d6336c;
+    margin-bottom: 20px;
+  }
+  
+  .mensagem {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    color: #555;
+  }
+  
+  .info-contato p {
+    margin: 15px 0;
+    font-size: 1.1rem;
+  }
+  
+  .info-contato a {
+    color: #d6336c;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .info-contato a:hover {
+    text-decoration: underline;
+  }
+  

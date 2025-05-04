@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navbar</title>
+    <link rel="stylesheet" href="artesanal.css" />
+    <style>
+      .painel-produtos {
+        background-color: #fdf4ef;
+        padding: 40px 20px;
+        font-family: Arial, sans-serif;
+        max-width: 1200px;
+        margin: auto;
+        border-radius: 10px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      }
+
+      .painel-produtos h2 {
+        text-align: center;
+        font-size: 2em;
+        margin-bottom: 20px;
+        color: #6b3e2e;
+      }
+
+      .produtos-conteudo {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+      }
+
+      .lista-produtos {
+        flex: 1 1 250px;
+        font-size: 1.1em;
+        color: #333;
+      }
+
+      .lista-produtos ul {
+        list-style: none;
+        padding-left: 0;
+        line-height: 1.8;
+      }
+
+      .info-pagamento {
+        margin-top: 20px;
+        font-weight: bold;
+      }
+
+      .imagens-produtos {
+        flex: 2 1 400px;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        gap: 10px;
+      }
+
+      .imagens-produtos img {
+        width: 100%;
+        border-radius: 8px;
+        object-fit: cover;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+      }
+
+      .contato-painel {
+        margin-top: 30px;
+        text-align: center;
+        font-size: 1.2em;
+        color: #6b3e2e;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <a class="logo" href="/">Delícias Artesanais</a>
+        <div class="mobile-menu">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+        <ul class="nav-list">
+          <li><a href="index.html">Início</a></li>
+          <li><a href="salgados.html">Salgados</a></li>
+          <li><a href="doces.html">Doces</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="intro">
+        <h1>Bem-vindo à Delícias Artesanais</h1>
+       <b>
+          <p>
+          Aqui você encontra os melhores salgados e doces feitos com carinho e ingredientes selecionados.
+          Nossos produtos são 100% artesanais, ideais para festas, eventos ou para aquele momento especial em casa.
+        </p>
+      </b>
+        <b>
+          <p>
+          Navegue pelo site e descubra nossas opções deliciosas que vão encantar seu paladar!
+        </p>
+      </b>
+      
+      </section>
+
+      <section class="painel-produtos">
+        <h2>Delícias Artesanais</h2>
+        <div class="produtos-conteudo">
+          <div class="lista-produtos">
+            <strong><p>Nos temos:</p></strong>
+            <mark>
+              <ul>
+              <li>Quiche</li>
+              <li>Empadas</li>
+              <li>Coxinha</li>
+              <li>Bolinho de carne</li>
+              <li>Rissoles</li>
+              <li>Bolo</li>
+              <li>Brigadeiro</li>
+            </ul>
+          </mark>
+            <p class="info-pagamento"><strong>ACEITAMOS: CARTÕES, Dinheiro e Pix</strong>
+              
+            </p>
+          </div>
+          <div class="imagens-produtos">
+            <img src="empada.jpg" alt="empada" />
+            <img src="enroladinho.jpg" alt="enroladinho" />
+            <img src="quiche.jpg" alt="Quiche" />
+            <img src="bolo.jpg" alt="bolos de festa" />
+            <img src="tortinha.jpg" alt="tortinhas" />
+            <img src="bolodepotesuspiro.jpg" alt="bolos de pote" />
+            <img src="bichodepé.jpg" alt="bolos de pote" />
+            <img src="salgados.jpg" alt="bolos de pote" />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="artesanal.js"></script>
+  </body>
+</html>
